@@ -148,8 +148,8 @@ df3 =pd.DataFrame(
 st.map(df3)   #ブロット地図
 
 st.write("Display Image(画像)==============================================")
-img=Image.open("スクリーンショット.png")
-st.image(img,caption="ScreenShot",use_column_width=True)
+img=Image.open("ScreenShot.png")
+st.image(img,caption="スクリーンショット",use_column_width=True)
 # 同様に、streamlitのドキュメントのAPIリファレンスのDisplay Mediaに
 # 様々な書式の記述方がある　　(音楽、ビデオも表示できる)
 #    https://docs.streamlit.io/develop/api-reference
