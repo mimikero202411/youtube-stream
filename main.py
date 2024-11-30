@@ -69,7 +69,7 @@ st.write("")
 ######################################################################################
 st.write("チェックボックスで画像の表示・非表示==================================================")
 if st.checkbox("画像ON-OFF"):
-    img=Image.open("スクリーンショット.png")
+    img=Image.open("Screenshot.png")
     st.image(img,caption="ScreenShot",use_container_width =True)
 st.write("セレクトボックス==================================================")
 option=st.selectbox(
