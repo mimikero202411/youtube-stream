@@ -145,7 +145,7 @@ df3 =pd.DataFrame(
     # 　　　　　+[35.69,139.70]で新宿付近の緯度経度を生成
     columns=["lat","lon"]  #緯度:"lat",経度:"lon"がパラメータ
 )
-st.map(df3)   #ブロット地図
+st.map(df3)   #ブロット地図   
 
 st.write("Display Image(画像)==============================================")
 img=Image.open("ScreenShot.png")
